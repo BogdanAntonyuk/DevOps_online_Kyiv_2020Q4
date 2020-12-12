@@ -1,0 +1,20 @@
+9725f70 (HEAD -> main, origin/main, origin/dev, origin/HEAD, dev) HEAD@{0}: merge dev: Fast-forward
+ecc7bdd HEAD@{1}: checkout: moving from dev to main
+9725f70 (HEAD -> main, origin/main, origin/dev, origin/HEAD, dev) HEAD@{2}: commit: Changed some style
+969efc2 HEAD@{3}: commit (merge): Merge branch 'styles' into dev
+a8af61c (origin/images, images) HEAD@{4}: checkout: moving from styles to dev
+bb5c33b (origin/styles, styles) HEAD@{5}: checkout: moving from dev to styles
+a8af61c (origin/images, images) HEAD@{6}: merge images: Fast-forward
+6fe4632 HEAD@{7}: checkout: moving from styles to dev
+bb5c33b (origin/styles, styles) HEAD@{8}: commit: added styles into index.html
+b906817 HEAD@{9}: commit: added styles.css
+6fe4632 HEAD@{10}: checkout: moving from dev to styles
+6fe4632 HEAD@{11}: checkout: moving from images to dev
+a8af61c (origin/images, images) HEAD@{12}: commit: added text to pic in index.html
+0cd26cb HEAD@{13}: commit: updated index.html
+3e36b78 HEAD@{14}: commit: added some images
+6fe4632 HEAD@{15}: checkout: moving from dev to images
+6fe4632 HEAD@{16}: commit: added index.html
+ecc7bdd HEAD@{17}: checkout: moving from main to dev
+ecc7bdd HEAD@{18}: commit: init commit
+96f3c77 HEAD@{19}: clone: from git@github.com:BogdanAntonyuk/DevOps_online_Kyiv_2020Q4.git
