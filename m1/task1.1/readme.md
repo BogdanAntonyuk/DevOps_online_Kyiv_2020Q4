@@ -7,4 +7,4 @@ I also enhanced my knowlage about [markdown language.](https://docs.github.com/e
 
 # My thoughts about DevOps
 
-DevOps is rather methodology than specific proffession. Relatevely new way to efficiently go throuht development circle of any product on digital market. As a methodology, it spiced with a bit of philosophy. Some deffinitions called DevOps a philosophy, but i preffer to be more restrained and take more akademic approach while defining this notion. DevOps also implies some specific set of knowledge which is essential to those who dare to become a DevOps engineer. 
+DevOps is rather methodology than specific proffession. Relatevely new way to efficiently go throuht development circle of any product on digital market. As a methodology, it is spiced with a bit of philosophy. Though some deffinitions name DevOps a philosophy  i preffer to be more restrained and take more akademic approach while defining this notion. DevOps also implies some specific set of knowledge which is essential to those who dare to become a DevOps engineer. 
