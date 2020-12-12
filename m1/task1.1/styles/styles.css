@@ -2,6 +2,7 @@ body {
   background-color: powderblue;
 }
 h1 {
+  text-align: center;
   color: blue;
 }
 p {
@@ -11,9 +12,4 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-}
-.center {
-  text-align: center;
-  border: 3px solid green;
 }
