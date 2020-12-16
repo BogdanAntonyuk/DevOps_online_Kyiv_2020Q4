@@ -27,3 +27,5 @@ This hypervisor has open-source Xen at its core and is free. Advanced features a
 
 - **Citrix Hypervisor (formerly known as Xen Server)**
 This Server virtualization platform by Citrix is best suited for enterprise environments. It can handle all types of workloads and provides features for the most demanding tasks. Citrix is proud of its proprietary features, such as Intel and NVIDIA enhanced virtualized graphics and workload security with Direct Inspect APIs.
+
+![screenshot 1](screenshots/1.png)
