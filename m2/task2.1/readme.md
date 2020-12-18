@@ -29,15 +29,25 @@ This hypervisor has open-source Xen at its core and is free. Advanced features a
 This Server virtualization platform by Citrix is best suited for enterprise environments. It can handle all types of workloads and provides features for the most demanding tasks. Citrix is proud of its proprietary features, such as Intel and NVIDIA enhanced virtualized graphics and workload security with Direct Inspect APIs.
 
 ![screenshot 1](screenshots/1.png)
+
 ![screenshot 2](screenshots/2.png)
+
 ![screenshot 3](screenshots/3.png)
+
 ![screenshot 4](screenshots/4.png)
+
 ![screenshot 5](screenshots/5.png)
+
 ![screenshot 6](screenshots/6.png)
+
 ![screenshot 7](screenshots/7.png)
+
 ![screenshot 8](screenshots/8.png)
+
 ![screenshot 9](screenshots/9.png)
+
 ![screenshot 10](screenshots/10.png)
+
 ![screenshot 11](screenshots/11.png)
 
 While creating custom vagrant box used [this](https://blog.engineyard.com/building-a-vagrant-box) articte.
