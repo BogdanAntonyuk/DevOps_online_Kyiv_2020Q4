@@ -36,3 +36,8 @@ This Server virtualization platform by Citrix is best suited for enterprise envi
 ![screenshot 6](screenshots/6.png)
 ![screenshot 7](screenshots/7.png)
 ![screenshot 8](screenshots/8.png)
+![screenshot 9](screenshots/9.png)
+![screenshot 10](screenshots/10.png)
+![screenshot 11](screenshots/11.png)
+
+While creating custom vagrant box used [this](https://blog.engineyard.com/building-a-vagrant-box) articte.
