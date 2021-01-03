@@ -1,6 +1,6 @@
 # Task 4.2
 
-In folder "ciscoFiles" i atached all schemas from the task
+In folder "ciscoFiles" i added all schemas from the task
 
 ![screenshot 1](screenshots/1.png)
 
