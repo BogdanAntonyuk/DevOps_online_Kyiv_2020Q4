@@ -127,7 +127,7 @@ __________________________________________
 
 ![screenshot 26](screenshots/26.png)
 
-13. ![screenshot 26](screenshots/26.png)
+13. ![screenshot 27](screenshots/27.png)
 
 on given example the most left letter on every line represents file or device type. For file types '-' (dash) symbol means - regular file, 'd' - directory, 'l' - link. As for the devicess: 
 c - character
