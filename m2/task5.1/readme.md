@@ -152,3 +152,4 @@ Named pipes allow two or more processes to communicate with each other, these ar
 
 Socket devices facilitate communication between processes, similar to pipe devices but they can communicate with many processes at once.
 
+![screenshot 28](screenshots/28.png)
