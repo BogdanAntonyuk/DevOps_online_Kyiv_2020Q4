@@ -77,4 +77,78 @@ __________________________________________
 
 There are quite a number of different options of "ls" command. The most used are: -a option which lists all files (including hidden), -l option list detailed info about files and folders, -h displays human readable size of files and folders.
 
-5. 
+![screenshot 14](screenshots/14.png)
+
+__________________________________________
+
+![screenshot 15](screenshots/15.png)
+
+__________________________________________
+
+![screenshot 16](screenshots/16.png)
+
+6. ![screenshot 17](screenshots/17.png)
+
+Soft or symbolic link is easy to define by -> symbol in ls -l command, hard link do not have same symbol, but hard link points to the same inode as source file (ls -li).
+
+![screenshot 18](screenshots/18.png)
+
+Though i changed data using soft link which points to labwork2 file after i opened hard link, data has been changed there too.
+
+After renaming soft and hard links i have access to all data as before. But after deleting labwork2 file, i also lost access to data through soft link.
+
+![screenshot 19](screenshots/19.png)
+
+__________________________________________
+
+![screenshot 20](screenshots/20.png)
+
+__________________________________________
+
+![screenshot 21](screenshots/21.png)
+
+__________________________________________
+
+![screenshot 22](screenshots/22.png)
+
+__________________________________________
+
+![screenshot 23](screenshots/23.png)
+
+__________________________________________
+
+![screenshot 24](screenshots/24.png)
+
+__________________________________________
+
+![screenshot 25](screenshots/25.png)
+
+__________________________________________
+
+![screenshot 26](screenshots/26.png)
+
+13. ![screenshot 26](screenshots/26.png)
+
+on given example the most left letter on every line represents file or device type. For file types '-' (dash) symbol means - regular file, 'd' - directory, 'l' - link. As for the devicess: 
+c - character
+b - block
+p - pipe
+s - socket
+The last column for devicess meam - device name.
+
+**Character Device**
+
+These devices transfer data, but one a character at a time. You'll see a lot of pseudo devices (/dev/null) as character devices, these devices aren't really physically connected to the machine, but they allow the operating system greater functionality.
+
+**Block Device**
+
+These devices transfer data, but in large fixed-sized blocks. You'll most commonly see devices that utilize data blocks as block devices, such as harddrives, filesystems, etc.
+
+**Pipe Device**
+
+Named pipes allow two or more processes to communicate with each other, these are similar to character devices, but instead of having output sent to a device, it's sent to another process.
+
+**Socket Device**
+
+Socket devices facilitate communication between processes, similar to pipe devices but they can communicate with many processes at once.
+
