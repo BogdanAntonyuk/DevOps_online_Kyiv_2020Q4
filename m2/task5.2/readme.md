@@ -1,6 +1,6 @@
 # Task 5.2
 
-1. Usernames aren't really identifications for users. The system uses a user ID (UID) to identify a user. To find out what users are mapped to what ID, look at the /etc/passwd
+**1.** Usernames aren't really identifications for users. The system uses a user ID (UID) to identify a user. To find out what users are mapped to what ID, look at the /etc/passwd
 
 ![screenshot 1](screenshots/1.png)
 
@@ -52,14 +52,14 @@ Very similar to the /etc/password field, the /etc/group fields are as follows:
 - Group ID (GID)
 - List of users - you can manually specify users you want in a specific group
 
-5. The main commands for working with Linux accounts are useradd, userdel, and usermod, as well as
+**5.** The main commands for working with Linux accounts are useradd, userdel, and usermod, as well as
 the password file editor vipw . The command interface is as follows:
 - `useradd [-c uid comment] [-d dir] [-e expire] [-f inactive] [-g gid] [-m [-k skel_dir]] [-s shell]
 [-u uid [-o]] username`
 - `userdel [-r] username`
 - `usermod [-c uid comment] [-d dir [-m]] [-e expire] [-f inactive] [-g gid] [-G gid [, gid]]
 [-l new username] [-s shell] [-u uid [-o]] username`
-7. Directory /etc/skel/ (skel is derived from the “skeleton”) is used to initiate home directory when a user is first created.
+**7.** Directory /etc/skel/ (skel is derived from the “skeleton”) is used to initiate home directory when a user is first created.
 
 ![screenshot 2](screenshots/2.png)
 
@@ -68,11 +68,11 @@ Below is a sample /etc/defualt/useradd file which defines the skel directory. Yo
 
 ![screenshot 3](screenshots/3.png)
 
-8.  `userdel [-r] username` with -r flag if you vant to remove also mail spool.
-9. To lock a users account use the command `usermod -L or passwd -l`. Both the commands adds an exclamation mark (“!”) in the second field of the file /etc/passwd. One of the benefits of locking an account in this way is that it's very easy to unlock the account when and if needed. Just reverse the change by removing the added exclamation point with a text editor or, better yet, by using the `passwd -u` or `usermod -U` command.
-10. From documentation i belive it would be `passwd -de username`
-11. The command `ls -l` displays extended format of information about the directory.
-12. Let's see on example:
+**8.**  `userdel [-r] username` with -r flag if you vant to remove also mail spool.
+**9.** To lock a users account use the command `usermod -L or passwd -l`. Both the commands adds an exclamation mark (“!”) in the second field of the file /etc/passwd. One of the benefits of locking an account in this way is that it's very easy to unlock the account when and if needed. Just reverse the change by removing the added exclamation point with a text editor or, better yet, by using the `passwd -u` or `usermod -U` command.
+**10.** From documentation i belive it would be `passwd -de username`
+**11.** The command `ls -l` displays extended format of information about the directory.
+**12.** Let's see on example:
 
  ![screenshot 4](screenshots/4.png)
 
@@ -88,10 +88,10 @@ Each character represent a different permission:
 - **x**: executable (basically an executable program)
 - **-**: empty
 
-13. If the UID of the file is the same as the UID of the process, the user is the owner of the file. 
+**13.** If the UID of the file is the same as the UID of the process, the user is the owner of the file. 
 If the GID of the file matches the GID of any group the user belongs to, he is a member of the group to which the file belongs. 
 If neither the UID no the GID of a file overlaps with the UID of the process and the list of groups that the user running it belongs to, that user is an outsider.
-14. `chmod [OPTION]... MODE[,MODE]... FILE...
+**14.** `chmod [OPTION]... MODE[,MODE]... FILE...
     chmod [OPTION]... OCTAL-MODE FILE...
     chmod [OPTION]... --reference=RFILE FILE...` command is used to change  access to folders and files. 
     
@@ -130,9 +130,9 @@ Wait a minute, 7 and 5 weren't listed above, where are we getting these numbers?
 
 5 = 4 +1, and all other users have read and execute permissions
 
-15. Sticky Bit is mainly used on folders in order to avoid deletion of a folder and it’s content by other users though they having write permissions on the folder contents. If Sticky bit is enabled on a folder, the folder contents are deleted by only owner who created them and the root user. No one else can delete other users data in this folder(Where sticky bit is set). This is a security measure to avoid deletion of critical folders and their content(sub-folders and files), though other users have full permissions.
+**15.** Sticky Bit is mainly used on folders in order to avoid deletion of a folder and it’s content by other users though they having write permissions on the folder contents. If Sticky bit is enabled on a folder, the folder contents are deleted by only owner who created them and the root user. No one else can delete other users data in this folder(Where sticky bit is set). This is a security measure to avoid deletion of critical folders and their content(sub-folders and files), though other users have full permissions.
 
 ![screenshot 5](screenshots/5.png)
 ![screenshot 6](screenshots/6.png)
 
-16. The file must have executable privilages in order to be able to function as script.
+**16.** The file must have executable privilages in order to be able to function as script.
