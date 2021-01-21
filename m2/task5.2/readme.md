@@ -59,6 +59,7 @@ the password file editor vipw . The command interface is as follows:
 - `userdel [-r] username`
 - `usermod [-c uid comment] [-d dir [-m]] [-e expire] [-f inactive] [-g gid] [-G gid [, gid]]
 [-l new username] [-s shell] [-u uid [-o]] username`
+
 **7.** Directory /etc/skel/ (skel is derived from the “skeleton”) is used to initiate home directory when a user is first created.
 
 ![screenshot 2](screenshots/2.png)
@@ -69,9 +70,13 @@ Below is a sample /etc/defualt/useradd file which defines the skel directory. Yo
 ![screenshot 3](screenshots/3.png)
 
 **8.**  `userdel [-r] username` with -r flag if you vant to remove also mail spool.
+
 **9.** To lock a users account use the command `usermod -L or passwd -l`. Both the commands adds an exclamation mark (“!”) in the second field of the file /etc/passwd. One of the benefits of locking an account in this way is that it's very easy to unlock the account when and if needed. Just reverse the change by removing the added exclamation point with a text editor or, better yet, by using the `passwd -u` or `usermod -U` command.
+
 **10.** From documentation i belive it would be `passwd -de username`
+
 **11.** The command `ls -l` displays extended format of information about the directory.
+
 **12.** Let's see on example:
 
  ![screenshot 4](screenshots/4.png)
