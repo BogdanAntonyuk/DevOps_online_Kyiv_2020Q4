@@ -20,9 +20,9 @@ There are real users as well as pseudo users presented in table. I belive pseudo
 
 Another file that is used in user management is the /etc/group file. This file allows for different groups with different permissions.
 
-`bob@DESKTOP-Q9HUF6Q:~$ cat /etc/group  
-root:x:0:  
-daemon:x:1:  
+`bob@DESKTOP-Q9HUF6Q:~$ cat /etc/group\
+root:x:0:\
+daemon:x:1:\
 bin:x:2:  
 sys:x:3:  
 adm:x:4:syslog,bob  
