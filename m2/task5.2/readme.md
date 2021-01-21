@@ -22,7 +22,7 @@ Another file that is used in user management is the /etc/group file. This file a
 
 bob@DESKTOP-Q9HUF6Q:~$ cat /etc/group
 
-`root:x:0:
+root:x:0:
 daemon:x:1:
 bin:x:2: 
 sys:x:3:  
@@ -44,7 +44,7 @@ netdev:x:117:bob
 lxd:x:118:  
 bob:x:1000:  
 mysql:x:119:  
-mlocate:x:120:`
+mlocate:x:120:
 
 Very similar to the /etc/password field, the /etc/group fields are as follows:
 
