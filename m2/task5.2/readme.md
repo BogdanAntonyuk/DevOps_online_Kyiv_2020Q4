@@ -20,30 +20,30 @@ There are real users as well as pseudo users presented in table. I belive pseudo
 
 Another file that is used in user management is the /etc/group file. This file allows for different groups with different permissions.
 
-`bob@DESKTOP-Q9HUF6Q:~$ cat /etc/group \n
-root:x:0:\n
-daemon:x:1:
-bin:x:2:
-sys:x:3:
-adm:x:4:syslog,bob
-tty:x:5:syslog
-disk:x:6:
-lp:x:7:
-mail:x:8:
-news:x:9:
-uucp:x:10:
-...
-tss:x:111:
-uuidd:x:112:
-tcpdump:x:113:
-ssh:x:114:
-landscape:x:115:
-admin:x:116:
-netdev:x:117:bob
-lxd:x:118:
-bob:x:1000:
-mysql:x:119:
-mlocate:x:120:`
+> bob@DESKTOP-Q9HUF6Q:~$ cat /etc/group
+> root:x:0:
+> daemon:x:1:
+> bin:x:2:
+> sys:x:3:
+> adm:x:4:syslog,bob
+> tty:x:5:syslog
+> disk:x:6:
+> lp:x:7:
+> mail:x:8:
+> news:x:9:
+> uucp:x:10:
+> ...
+> tss:x:111:
+> uuidd:x:112:
+> tcpdump:x:113:
+> ssh:x:114:
+> landscape:x:115:
+> admin:x:116:
+> netdev:x:117:bob
+> lxd:x:118:
+> bob:x:1000:
+> mysql:x:119:
+> mlocate:x:120:
 
 Very similar to the /etc/password field, the /etc/group fields are as follows:
 
