@@ -118,7 +118,7 @@ The numerical representations are seen below:
 - **1**: execute permission
 Let's look at an example:
 
-**$ chmod 755 myfile**
+`$ chmod 755 myfile`
 
 So now 755 covers the permissions for all sets. The first number (7) represents user permissions, the second number (5) represents group permissions and the last 5 represents other permissions.
 
