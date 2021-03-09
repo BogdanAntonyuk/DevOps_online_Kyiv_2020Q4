@@ -1,0 +1,58 @@
+---
+- name: Install Apache and upload Web Page
+  hosts: all
+  become: yes
+  
+  vars:
+    source_file: ~/CICD-test/
+    destination_file: /var/www/html
+
+  tasks:
+  - name: Check and print Linux version
+    debug: 
+      var: ansible_os_family
+
+
+  - block:    # ====Block for RedHat=====
+
+    - name: Install Apache web server for RedHat
+      yum: name=httpd state=latest
+ 
+
+    - name: Copy my site to server
+      copy: src={{ source_file }} dest={{ destination_file }} mode=0555
+      notify: Restart Apache for RedHat
+
+    - name: Start Web server and enable on boot for Redhat
+      service: name=httpd state=started enabled=yes
+
+    when: ansible_os_family == "RedHat"
+
+
+  - block:   # =====Block for Debian=====
+
+    - name: Install Apache web server for Debian
+      apt:
+        name: apache2
+        state: latest
+
+    - name: Copy my site to server
+      copy: src={{ source_file }} dest={{ destination_file }} mode=0555
+      notify: Restart Apache for Debian
+
+    - name: Start web service and enable on boot for Debian
+      service: 
+        name: apache2
+        state: started
+        enabled: yes
+
+    when: ansible_os_family == "Debian"
+
+
+  handlers:
+  - name: Restart Apache for RedHat
+    service: name=httpd state=restarted  
+  - name: Restart Apache for Debian
+    service:
+      name: apache2
+      state: restarted
